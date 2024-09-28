@@ -1,0 +1,19 @@
+
+.add-cafe-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .add-cafe-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-cafe-page .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .add-cafe-page .MuiButton-root {
+    align-self: flex-start;
+  }

@@ -1,0 +1,33 @@
+.cafe-container {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .add-cafe-button {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .ag-theme-alpine {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  }
+  
+  .cafe-actions button {
+    margin-right: 5px;
+  }
+  
+  /* Hide pagination panel completely */
+  .ag-paging-panel {
+    display: none;
+  }
+  
+  /* Ensure proper alignment for header and cell contents */
+  .ag-header-cell, .ag-cell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+  }

@@ -1,0 +1,31 @@
+.employee-container {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .employee-actions button {
+    margin-right: 5px;
+  }
+  
+  .ag-theme-alpine {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  }
+  
+  /* Ensure proper alignment and no text overlap */
+  .ag-header-cell, .ag-cell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Custom no data message styling */
+  .no-data-message {
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    padding: 20px;
+  }
